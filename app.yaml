@@ -3,10 +3,10 @@ api_version: 1
 threadsafe: true
 
 handlers:
-  - url: /
-  static_diles: www/indes.html
+- url: /
+  static_files: www/index.html
   upload: www/index.html
 
-  -url: /(.*)
-  statis_files: www/\1
-  upload: ww/(.*)
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
